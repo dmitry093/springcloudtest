@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: importer-service
+
+server:
+  port: 8301
+
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/
+
+  instance:
+    hostname: localhost

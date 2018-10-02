@@ -1,0 +1,6 @@
+rootProject.name = 'sample.springcloud'
+
+include 'lib'
+include 'master-service'
+include 'eureka-service'
+include 'importer-service'
